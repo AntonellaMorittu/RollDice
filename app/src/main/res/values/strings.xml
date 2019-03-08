@@ -2,4 +2,43 @@
     <string name="app_name">Dice Roller</string>
     <string name="_1">1</string>
     <string name="roll">Roll</string>
+    <string name="name">Songs I like</string>
+    <string name="yellow_star">Yellow star</string>
+
+    <string name="bio">
+        NIGHTFALL
+        \n\nNo sign of life did flicker
+        \nIn floods of tears she cried
+        \nAll hope is lost it can\'t be undone
+        \nThey are wasted and gone
+        \nSave me your speeches
+        \nI know (They blinded us all)
+        \nWhat you want
+        \nYou will take it away from me
+        \nTake it and I know for sure
+        \nThe light she once brought in
+        \nIs gone forevermore
+        \nLike sorrowful seagulls they sang
+        \n(We are) lost in the deep shades
+        \nThe misty cloud brought
+        \n(A wailing when beauty was gone
+        \nCome take a look at the sky)
+        \nMonstrous it covered the shore
+        \nFearful into the unknown
+        \n\nQuietly it crept in new horror
+        \nInsanity reigned
+        \nAnd spilled the first blood
+        \nWhen the old king was slain
+        \n\nNightfall
+        \nQuietly crept in and changed us all
+        \nNightfall
+        \nQuietly crept in and changed us all
+        \nNightfall
+        \nImmortal land lies down in agony\n\n
+    </string>
+    <string name="lyrics">TextView</string>
+    <string name="what_is_the_band">What is the band?</string>
+    <string name="done">DONE</string>
+    <string name="more">MORE</string>
+
 </resources>

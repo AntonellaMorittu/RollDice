@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:paddingStart="@dimen/layout_margin"
+              android:paddingEnd="@dimen/layout_margin">
+
+    <TextView
+            android:text="@string/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_text"
+            android:textAlignment="center"
+            style="@style/NameStyle"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/band_edit" style="@style/NameStyle" android:textAlignment="center"
+            android:hint="@string/what_is_the_band"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/done_button"
+            android:text="@string/done"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/roboto"
+    />
+    <TextView
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/band_text" style="@style/NameStyle"
+            android:textAlignment="center" android:visibility="gone"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/star_image"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:contentDescription="@string/yellow_star"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bio_text"
+                style="@style/NameStyle"
+                android:text="@string/bio"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingStart="@dimen/padding"
+                android:paddingEnd="@dimen/padding"/>
+    </ScrollView>
+</LinearLayout>

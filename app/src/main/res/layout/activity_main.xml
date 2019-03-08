@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/layout"
               android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_gravity="center_vertical"
+              android:layout_height="match_parent"
+              android:background="#f2598c"
+              android:gravity="center_vertical"
               android:orientation="vertical"
-              tools:context=".MainActivity">
+              tools:context=".MainActivity" android:visibility="visible">
 
     <ImageView
             android:id="@+id/dice_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/dice_1" />
+            android:src="@drawable/dice_1"
+            tools:src="@drawable/dice_1" android:contentDescription="TODO"/>
 
     <Button
             android:id="@+id/roll_button"
-            android:layout_width="wrap_content"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/roll"/>
+            android:text="@string/roll"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lb_ic_nav_arrow"
+            android:text="@string/more"
+            android:id="@+id/more_button"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/peach"
+            android:background="@drawable/custom_button2"
+            android:textStyle="bold"
+            android:layout_marginTop="50sp"/>
 
 </LinearLayout>
