@@ -110,10 +110,9 @@ class MainActivity : AppCompatActivity(), MainView {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //val moreButton: ImageButton = findViewById(R.id.more_button)
 
         rollButton.text = "Let's roll!"
-        
+
         presenter.start().addTo(bag)
 
     }
