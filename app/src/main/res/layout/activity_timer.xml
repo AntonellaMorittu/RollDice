@@ -5,7 +5,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".TimerActivity"
-        android:visibility="visible">
+        android:visibility="visible"
+        android:background="#FF9124">
 
     <TextView
             android:id="@+id/text_view_countdown"
@@ -14,8 +15,8 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="00:00"
-            android:textColor="@android:color/black"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:textColor="#FFFFFF"/>
 
     <Button
             android:id="@+id/button_start_pause"
@@ -23,17 +24,26 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_countdown"
             android:layout_centerHorizontal="true"
-            android:text="start"/>
+            android:text="start"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginTop="25sp"/>
 
     <Button
             android:id="@+id/button_reset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_countdown"
-
             android:layout_toEndOf="@+id/button_start_pause"
             android:text="reset"
             android:visibility="invisible"
-            tools:visibility="visible" android:layout_marginTop="60dp" android:layout_marginStart="-85dp"/>
+            tools:visibility="visible" android:layout_marginTop="95dp" android:layout_marginStart="-85dp"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"
+            style="?android:attr/borderlessButtonStyle"
+    />
 
 </RelativeLayout>

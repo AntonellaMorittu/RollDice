@@ -18,5 +18,8 @@
     <string name="what_is_the_band">What is the band?</string>
     <string name="done">DONE</string>
     <string name="more">MORE</string>
+    <string name="start">Start</string>
+    <string name="pause">pause</string>
+    <string name="resume">Resume</string>
 
 </resources>
