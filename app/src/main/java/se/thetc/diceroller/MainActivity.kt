@@ -6,9 +6,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.ScrollView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatImageButton
+import androidx.core.content.ContextCompat
 import com.jakewharton.rxbinding3.view.clicks
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable
@@ -96,9 +98,9 @@ class MainActivity : AppCompatActivity(), MainView {
 
         if (drawableResource == R.drawable.dice_6) {
             Toast.makeText(this, "Not today Satan, not today", Toast.LENGTH_SHORT).show()
-            myLayout.setBackgroundColor(Color.BLACK)
+            myLayout.background = ContextCompat.getDrawable(this, R.drawable.flame)
         } else {
-            myLayout.setBackgroundColor(Color.parseColor("#f2598c"))
+            myLayout.background = ContextCompat.getDrawable(this, R.drawable.background)
         }
 
         diceImageView.setImageResource(drawableResource)

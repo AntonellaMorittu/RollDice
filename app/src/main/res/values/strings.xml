@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Dice Roller</string>
     <string name="_1">1</string>
-    <string name="roll">Roll</string>
+    <string name="roll">Let\'s Roll</string>
     <string name="name">Songs I like</string>
     <string name="yellow_star">Yellow star</string>
 
@@ -19,7 +19,7 @@
     <string name="done">DONE</string>
     <string name="more">MORE</string>
     <string name="start">Start</string>
-    <string name="pause">pause</string>
+    <string name="pause">Pause</string>
     <string name="resume">Resume</string>
 
 </resources>
